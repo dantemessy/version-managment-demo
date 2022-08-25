@@ -1,0 +1,11 @@
+spring.application.name: @artifactId@
+spring.config.import: "configserver:http://localhost:8888"
+
+local-value: "from local server config file"
+
+shared-value: "from local server config file"
+
+general-value: "from local server config file"
+#############################
+server.port: 6666
+
